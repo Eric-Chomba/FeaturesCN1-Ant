@@ -1,0 +1,723 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<resource majorVersion="1" minorVersion="11" useXmlUI="false">
+    <l10n name="chineselang">
+        <lang name="en">
+            <entry key="select" value="Select" />
+            <entry key="ok" value="" />
+            <entry key="cancel" value="Cancel" />
+            <entry key="edit" value="Edit" />
+            <entry key="menu" value="Menu" />
+            <entry key="User" value="China man" />
+        </lang>
+    </l10n>
+    <l10n name="l10n">
+        <lang name="Swahili">
+            <entry key="ok" value="Mtu" />
+            <entry key="Eric" value="Erico" />
+            <entry key="User" value="Msee" />
+        </lang>
+        <lang name="Chinese">
+            <entry key="ok" value="" />
+            <entry key="User" value="China" />
+        </lang>
+        <lang name="en">
+            <entry key="ok" value="OK" />
+            <entry key="cancel" value="Cancel" />
+            <entry key="edit" value="Edit" />
+            <entry key="Eric" value="Chomba" />
+            <entry key="menu" value="Menu" />
+            <entry key="User" value="Users" />
+        </lang>
+    </l10n>
+    <theme name="Theme">
+        <val key="@includeNativeBool" value="true" />
+        <val key="Default.bgColor" value="15E7FF" />
+        <val key="Default.dis#bgColor" value="0" />
+        <val key="Default.dis#transparency" value="0" />
+        <val key="Default.fgColor" value="000000" />
+        <val key="Default.press#bgColor" value="0" />
+        <val key="Default.press#transparency" value="0" />
+        <val key="Default.sel#bgColor" value="0" />
+        <val key="Default.sel#transparency" value="0" />
+        <val key="Default.transparency" value="0" />
+        <val key="bgColor" value="0" />
+        <val key="btn.align" value="4" />
+        <val key="btn.bgColor" value="ff" />
+        <val key="btn.bgType" value="0" />
+        <border key="btn.border" type="round" roundBorderColor="255" opacity="255" strokeColor="0" strokeOpacity="0" strokeThickness="0.0" strokeMM="false" shadowSpread="10" shadowOpacity="0" shadowX="0.5" shadowY="0.5" shadowBlur="10.0" shadowMM="false" rectangle="true" />
+        <val key="btn.dis#align" value="4" />
+        <val key="btn.dis#bgColor" value="ff" />
+        <val key="btn.dis#bgType" value="0" />
+        <border key="btn.dis#border" type="round" roundBorderColor="255" opacity="255" strokeColor="0" strokeOpacity="0" strokeThickness="0.0" strokeMM="false" shadowSpread="10" shadowOpacity="0" shadowX="0.5" shadowY="0.5" shadowBlur="10.0" shadowMM="false" rectangle="true" />
+        <val key="btn.dis#fgColor" value="ffffff" />
+        <font key="btn.dis#font" type="ttf" face="0" style="0" size="0" name="native:MainRegular" family="native:MainRegular" sizeSettings="3" actualSize="2.0" />
+        <val key="btn.dis#marUnit" value="2,2,2,2" />
+        <val key="btn.dis#margin" value="1.0,1.0,1.0,1.0" />
+        <val key="btn.dis#padUnit" value="2,2,2,2" />
+        <val key="btn.dis#padding" value="1.0,1.0,1.0,1.0" />
+        <val key="btn.dis#transparency" value="255" />
+        <val key="btn.fgColor" value="ffffff" />
+        <font key="btn.font" type="ttf" face="0" style="0" size="0" name="native:MainRegular" family="native:MainRegular" sizeSettings="3" actualSize="2.0" />
+        <val key="btn.marUnit" value="2,2,2,2" />
+        <val key="btn.margin" value="1.0,1.0,1.0,1.0" />
+        <val key="btn.padUnit" value="2,2,2,2" />
+        <val key="btn.padding" value="1.0,1.0,1.0,1.0" />
+        <val key="btn.press#align" value="4" />
+        <val key="btn.press#bgColor" value="ff" />
+        <val key="btn.press#bgType" value="0" />
+        <border key="btn.press#border" type="round" roundBorderColor="255" opacity="255" strokeColor="0" strokeOpacity="0" strokeThickness="0.0" strokeMM="false" shadowSpread="10" shadowOpacity="0" shadowX="0.5" shadowY="0.5" shadowBlur="10.0" shadowMM="false" rectangle="true" />
+        <val key="btn.press#fgColor" value="ffffff" />
+        <font key="btn.press#font" type="ttf" face="0" style="0" size="0" name="native:MainRegular" family="native:MainRegular" sizeSettings="3" actualSize="2.0" />
+        <val key="btn.press#marUnit" value="2,2,2,2" />
+        <val key="btn.press#margin" value="1.0,1.0,1.0,1.0" />
+        <val key="btn.press#padUnit" value="2,2,2,2" />
+        <val key="btn.press#padding" value="1.0,1.0,1.0,1.0" />
+        <val key="btn.press#transparency" value="255" />
+        <val key="btn.sel#align" value="4" />
+        <val key="btn.sel#bgColor" value="ff" />
+        <val key="btn.sel#bgType" value="0" />
+        <border key="btn.sel#border" type="round" roundBorderColor="255" opacity="255" strokeColor="0" strokeOpacity="0" strokeThickness="0.0" strokeMM="false" shadowSpread="10" shadowOpacity="0" shadowX="0.5" shadowY="0.5" shadowBlur="10.0" shadowMM="false" rectangle="true" />
+        <val key="btn.sel#fgColor" value="ffffff" />
+        <font key="btn.sel#font" type="ttf" face="0" style="0" size="0" name="native:MainRegular" family="native:MainRegular" sizeSettings="3" actualSize="2.0" />
+        <val key="btn.sel#marUnit" value="2,2,2,2" />
+        <val key="btn.sel#margin" value="1.0,1.0,1.0,1.0" />
+        <val key="btn.sel#padUnit" value="2,2,2,2" />
+        <val key="btn.sel#padding" value="1.0,1.0,1.0,1.0" />
+        <val key="btn.sel#transparency" value="255" />
+        <val key="btn.transparency" value="255" />
+        <val key="btnMap.align" value="4" />
+        <val key="btnMap.bgColor" value="0" />
+        <val key="btnMap.dis#align" value="4" />
+        <val key="btnMap.dis#bgColor" value="0" />
+        <val key="btnMap.dis#fgColor" value="3399ff" />
+        <font key="btnMap.dis#font" type="ttf" face="0" style="0" size="0" name="native:MainLight" family="native:MainLight" sizeSettings="3" actualSize="3.0" />
+        <val key="btnMap.dis#marUnit" value="0,0,2,0" />
+        <val key="btnMap.dis#margin" value="0.0,2.0,0.0,0.0" />
+        <val key="btnMap.dis#padUnit" value="0,0,0,0" />
+        <val key="btnMap.dis#padding" value="0.0,0.0,0.0,0.0" />
+        <val key="btnMap.dis#transparency" value="0" />
+        <val key="btnMap.fgColor" value="3399ff" />
+        <font key="btnMap.font" type="ttf" face="0" style="0" size="0" name="native:MainLight" family="native:MainLight" sizeSettings="3" actualSize="3.0" />
+        <val key="btnMap.marUnit" value="0,0,2,0" />
+        <val key="btnMap.margin" value="0.0,2.0,0.0,0.0" />
+        <val key="btnMap.padUnit" value="0,0,0,0" />
+        <val key="btnMap.padding" value="0.0,0.0,0.0,0.0" />
+        <val key="btnMap.press#align" value="4" />
+        <val key="btnMap.press#bgColor" value="0" />
+        <val key="btnMap.press#fgColor" value="3399ff" />
+        <font key="btnMap.press#font" type="ttf" face="0" style="0" size="0" name="native:MainLight" family="native:MainLight" sizeSettings="3" actualSize="3.0" />
+        <val key="btnMap.press#marUnit" value="0,0,2,0" />
+        <val key="btnMap.press#margin" value="0.0,2.0,0.0,0.0" />
+        <val key="btnMap.press#padUnit" value="0,0,0,0" />
+        <val key="btnMap.press#padding" value="0.0,0.0,0.0,0.0" />
+        <val key="btnMap.press#transparency" value="0" />
+        <val key="btnMap.sel#align" value="4" />
+        <val key="btnMap.sel#bgColor" value="0" />
+        <val key="btnMap.sel#fgColor" value="3399ff" />
+        <font key="btnMap.sel#font" type="ttf" face="0" style="0" size="0" name="native:MainLight" family="native:MainLight" sizeSettings="3" actualSize="3.0" />
+        <val key="btnMap.sel#marUnit" value="0,0,2,0" />
+        <val key="btnMap.sel#margin" value="0.0,2.0,0.0,0.0" />
+        <val key="btnMap.sel#padUnit" value="0,0,0,0" />
+        <val key="btnMap.sel#padding" value="0.0,0.0,0.0,0.0" />
+        <val key="btnMap.sel#transparency" value="0" />
+        <val key="btnMap.transparency" value="0" />
+        <val key="cntChk.dis#marUnit" value="2,2,2,2" />
+        <val key="cntChk.dis#margin" value="2.0,2.0,2.0,2.0" />
+        <val key="cntChk.marUnit" value="2,2,2,2" />
+        <val key="cntChk.margin" value="2.0,2.0,2.0,2.0" />
+        <val key="cntChk.press#marUnit" value="2,2,2,2" />
+        <val key="cntChk.press#margin" value="2.0,2.0,2.0,2.0" />
+        <val key="cntChk.sel#marUnit" value="2,2,2,2" />
+        <val key="cntChk.sel#margin" value="2.0,2.0,2.0,2.0" />
+        <val key="cntCreditCard.dis#marUnit" value="2,2,2,2" />
+        <val key="cntCreditCard.dis#margin" value="2.0,2.0,2.0,2.0" />
+        <val key="cntCreditCard.marUnit" value="2,2,2,2" />
+        <val key="cntCreditCard.margin" value="2.0,2.0,2.0,2.0" />
+        <val key="cntCreditCard.press#marUnit" value="2,2,2,2" />
+        <val key="cntCreditCard.press#margin" value="2.0,2.0,2.0,2.0" />
+        <val key="cntCreditCard.sel#marUnit" value="2,2,2,2" />
+        <val key="cntCreditCard.sel#margin" value="2.0,2.0,2.0,2.0" />
+        <val key="cntDD.dis#marUnit" value="2,2,2,2" />
+        <val key="cntDD.dis#margin" value="2.0,2.0,2.0,2.0" />
+        <val key="cntDD.marUnit" value="2,2,2,2" />
+        <val key="cntDD.margin" value="2.0,2.0,2.0,2.0" />
+        <val key="cntDD.press#marUnit" value="2,2,2,2" />
+        <val key="cntDD.press#margin" value="2.0,2.0,2.0,2.0" />
+        <val key="cntDD.sel#marUnit" value="2,2,2,2" />
+        <val key="cntDD.sel#margin" value="2.0,2.0,2.0,2.0" />
+        <val key="cntMenus.bgColor" value="0" />
+        <val key="cntMenus.dis#bgColor" value="0" />
+        <val key="cntMenus.dis#marUnit" value="2,0,2,0" />
+        <val key="cntMenus.dis#margin" value="2.0,1.0,0.0,0.0" />
+        <val key="cntMenus.dis#transparency" value="0" />
+        <val key="cntMenus.marUnit" value="2,0,2,0" />
+        <val key="cntMenus.margin" value="2.0,1.0,0.0,0.0" />
+        <val key="cntMenus.press#bgColor" value="0" />
+        <val key="cntMenus.press#marUnit" value="2,0,2,0" />
+        <val key="cntMenus.press#margin" value="2.0,1.0,0.0,0.0" />
+        <val key="cntMenus.press#transparency" value="0" />
+        <val key="cntMenus.sel#bgColor" value="0" />
+        <val key="cntMenus.sel#marUnit" value="2,0,2,0" />
+        <val key="cntMenus.sel#margin" value="2.0,1.0,0.0,0.0" />
+        <val key="cntMenus.sel#transparency" value="0" />
+        <val key="cntMenus.transparency" value="0" />
+        <val key="cntRad.dis#marUnit" value="2,2,2,2" />
+        <val key="cntRad.dis#margin" value="2.0,2.0,2.0,2.0" />
+        <val key="cntRad.marUnit" value="2,2,2,2" />
+        <val key="cntRad.margin" value="2.0,2.0,2.0,2.0" />
+        <val key="cntRad.press#marUnit" value="2,2,2,2" />
+        <val key="cntRad.press#margin" value="2.0,2.0,2.0,2.0" />
+        <val key="cntRad.sel#marUnit" value="2,2,2,2" />
+        <val key="cntRad.sel#margin" value="2.0,2.0,2.0,2.0" />
+        <val key="cntTabPar.bgColor" value="ffffff" />
+        <val key="cntTabPar.dis#bgColor" value="ffffff" />
+        <val key="cntTabPar.dis#transparency" value="255" />
+        <val key="cntTabPar.press#bgColor" value="ffffff" />
+        <val key="cntTabPar.press#transparency" value="255" />
+        <val key="cntTabPar.sel#bgColor" value="ffffff" />
+        <val key="cntTabPar.sel#transparency" value="255" />
+        <val key="cntTabPar.transparency" value="255" />
+        <val key="cntTf.dis#marUnit" value="2,2,2,2" />
+        <val key="cntTf.dis#margin" value="2.0,2.0,2.0,2.0" />
+        <val key="cntTf.marUnit" value="2,2,2,2" />
+        <val key="cntTf.margin" value="2.0,2.0,2.0,2.0" />
+        <val key="cntTf.press#marUnit" value="2,2,2,2" />
+        <val key="cntTf.press#margin" value="2.0,2.0,2.0,2.0" />
+        <val key="cntTf.sel#marUnit" value="2,2,2,2" />
+        <val key="cntTf.sel#margin" value="2.0,2.0,2.0,2.0" />
+        <val key="cntToggle.dis#marUnit" value="2,2,2,2" />
+        <val key="cntToggle.dis#margin" value="2.0,2.0,2.0,2.0" />
+        <val key="cntToggle.marUnit" value="2,2,2,2" />
+        <val key="cntToggle.margin" value="2.0,2.0,2.0,2.0" />
+        <val key="cntToggle.press#marUnit" value="2,2,2,2" />
+        <val key="cntToggle.press#margin" value="2.0,2.0,2.0,2.0" />
+        <val key="cntToggle.sel#marUnit" value="2,2,2,2" />
+        <val key="cntToggle.sel#margin" value="2.0,2.0,2.0,2.0" />
+        <val key="dis#bgColor" value="0" />
+        <val key="dis#transparency" value="0" />
+        <val key="lblAdsMsg.align" value="4" />
+        <border key="lblAdsMsg.border" type="empty" />
+        <val key="lblAdsMsg.dis#align" value="4" />
+        <border key="lblAdsMsg.dis#border" type="empty" />
+        <val key="lblAdsMsg.dis#fgColor" value="0" />
+        <font key="lblAdsMsg.dis#font" type="ttf" face="0" style="0" size="0" name="native:MainThin" family="native:MainThin" sizeSettings="3" actualSize="2.7" />
+        <val key="lblAdsMsg.dis#marUnit" value="2,2,2,2" />
+        <val key="lblAdsMsg.dis#margin" value="2.0,2.0,2.0,2.0" />
+        <val key="lblAdsMsg.dis#padUnit" value="2,2,2,2" />
+        <val key="lblAdsMsg.dis#padding" value="2.0,2.0,0.0,0.0" />
+        <val key="lblAdsMsg.fgColor" value="0" />
+        <font key="lblAdsMsg.font" type="ttf" face="0" style="0" size="0" name="native:MainThin" family="native:MainThin" sizeSettings="3" actualSize="2.7" />
+        <val key="lblAdsMsg.marUnit" value="2,2,2,2" />
+        <val key="lblAdsMsg.margin" value="2.0,2.0,2.0,2.0" />
+        <val key="lblAdsMsg.padUnit" value="2,2,2,2" />
+        <val key="lblAdsMsg.padding" value="2.0,2.0,0.0,0.0" />
+        <val key="lblAdsMsg.press#align" value="4" />
+        <border key="lblAdsMsg.press#border" type="empty" />
+        <val key="lblAdsMsg.press#fgColor" value="0" />
+        <font key="lblAdsMsg.press#font" type="ttf" face="0" style="0" size="0" name="native:MainThin" family="native:MainThin" sizeSettings="3" actualSize="2.7" />
+        <val key="lblAdsMsg.press#marUnit" value="2,2,2,2" />
+        <val key="lblAdsMsg.press#margin" value="2.0,2.0,2.0,2.0" />
+        <val key="lblAdsMsg.press#padUnit" value="2,2,2,2" />
+        <val key="lblAdsMsg.press#padding" value="2.0,2.0,0.0,0.0" />
+        <val key="lblAdsMsg.sel#align" value="4" />
+        <border key="lblAdsMsg.sel#border" type="empty" />
+        <val key="lblAdsMsg.sel#fgColor" value="0" />
+        <font key="lblAdsMsg.sel#font" type="ttf" face="0" style="0" size="0" name="native:MainThin" family="native:MainThin" sizeSettings="3" actualSize="2.7" />
+        <val key="lblAdsMsg.sel#marUnit" value="2,2,2,2" />
+        <val key="lblAdsMsg.sel#margin" value="2.0,2.0,2.0,2.0" />
+        <val key="lblAdsMsg.sel#padUnit" value="2,2,2,2" />
+        <val key="lblAdsMsg.sel#padding" value="2.0,2.0,0.0,0.0" />
+        <val key="lblAdsTitle.align" value="4" />
+        <border key="lblAdsTitle.border" type="empty" />
+        <val key="lblAdsTitle.dis#align" value="4" />
+        <border key="lblAdsTitle.dis#border" type="empty" />
+        <val key="lblAdsTitle.dis#fgColor" value="15e7ff" />
+        <font key="lblAdsTitle.dis#font" type="ttf" face="0" style="0" size="0" name="native:MainRegular" family="native:MainRegular" sizeSettings="3" actualSize="3.0" />
+        <val key="lblAdsTitle.dis#padUnit" value="2,2,2,2" />
+        <val key="lblAdsTitle.dis#padding" value="2.0,2.0,0.0,0.0" />
+        <val key="lblAdsTitle.fgColor" value="15e7ff" />
+        <font key="lblAdsTitle.font" type="ttf" face="0" style="0" size="0" name="native:MainRegular" family="native:MainRegular" sizeSettings="3" actualSize="3.0" />
+        <val key="lblAdsTitle.padUnit" value="2,2,2,2" />
+        <val key="lblAdsTitle.padding" value="2.0,2.0,0.0,0.0" />
+        <val key="lblAdsTitle.press#align" value="4" />
+        <border key="lblAdsTitle.press#border" type="empty" />
+        <val key="lblAdsTitle.press#fgColor" value="15e7ff" />
+        <font key="lblAdsTitle.press#font" type="ttf" face="0" style="0" size="0" name="native:MainRegular" family="native:MainRegular" sizeSettings="3" actualSize="3.0" />
+        <val key="lblAdsTitle.press#padUnit" value="2,2,2,2" />
+        <val key="lblAdsTitle.press#padding" value="2.0,2.0,0.0,0.0" />
+        <val key="lblAdsTitle.sel#align" value="4" />
+        <border key="lblAdsTitle.sel#border" type="empty" />
+        <val key="lblAdsTitle.sel#fgColor" value="15e7ff" />
+        <font key="lblAdsTitle.sel#font" type="ttf" face="0" style="0" size="0" name="native:MainRegular" family="native:MainRegular" sizeSettings="3" actualSize="3.0" />
+        <val key="lblAdsTitle.sel#padUnit" value="2,2,2,2" />
+        <val key="lblAdsTitle.sel#padding" value="2.0,2.0,0.0,0.0" />
+        <val key="lblBottomNav.align" value="4" />
+        <val key="lblBottomNav.bgColor" value="0" />
+        <val key="lblBottomNav.dis#align" value="4" />
+        <val key="lblBottomNav.dis#bgColor" value="0" />
+        <val key="lblBottomNav.dis#fgColor" value="3399ff" />
+        <font key="lblBottomNav.dis#font" type="ttf" face="0" style="0" size="0" name="native:MainLight" family="native:MainLight" sizeSettings="3" actualSize="2.4" />
+        <val key="lblBottomNav.dis#marUnit" value="2,2,2,2" />
+        <val key="lblBottomNav.dis#margin" value="0.0,2.0,0.0,0.0" />
+        <val key="lblBottomNav.dis#padUnit" value="0,0,0,0" />
+        <val key="lblBottomNav.dis#padding" value="0.0,0.0,0.0,0.0" />
+        <val key="lblBottomNav.dis#transparency" value="0" />
+        <val key="lblBottomNav.fgColor" value="3399ff" />
+        <font key="lblBottomNav.font" type="ttf" face="0" style="0" size="0" name="native:MainLight" family="native:MainLight" sizeSettings="3" actualSize="2.4" />
+        <val key="lblBottomNav.marUnit" value="2,2,2,2" />
+        <val key="lblBottomNav.margin" value="0.0,2.0,0.0,0.0" />
+        <val key="lblBottomNav.padUnit" value="0,0,0,0" />
+        <val key="lblBottomNav.padding" value="0.0,0.0,0.0,0.0" />
+        <val key="lblBottomNav.press#align" value="4" />
+        <val key="lblBottomNav.press#bgColor" value="0" />
+        <val key="lblBottomNav.press#fgColor" value="3399ff" />
+        <font key="lblBottomNav.press#font" type="ttf" face="0" style="0" size="0" name="native:MainLight" family="native:MainLight" sizeSettings="3" actualSize="2.4" />
+        <val key="lblBottomNav.press#marUnit" value="2,2,2,2" />
+        <val key="lblBottomNav.press#margin" value="0.0,2.0,0.0,0.0" />
+        <val key="lblBottomNav.press#padUnit" value="0,0,0,0" />
+        <val key="lblBottomNav.press#padding" value="0.0,0.0,0.0,0.0" />
+        <val key="lblBottomNav.press#transparency" value="0" />
+        <val key="lblBottomNav.sel#align" value="4" />
+        <val key="lblBottomNav.sel#bgColor" value="0" />
+        <val key="lblBottomNav.sel#fgColor" value="3399ff" />
+        <font key="lblBottomNav.sel#font" type="ttf" face="0" style="0" size="0" name="native:MainLight" family="native:MainLight" sizeSettings="3" actualSize="2.4" />
+        <val key="lblBottomNav.sel#marUnit" value="2,2,2,2" />
+        <val key="lblBottomNav.sel#margin" value="0.0,2.0,0.0,0.0" />
+        <val key="lblBottomNav.sel#padUnit" value="0,0,0,0" />
+        <val key="lblBottomNav.sel#padding" value="0.0,0.0,0.0,0.0" />
+        <val key="lblBottomNav.sel#transparency" value="0" />
+        <val key="lblBottomNav.transparency" value="0" />
+        <val key="lblTitle.align" value="4" />
+        <val key="lblTitle.bgColor" value="0" />
+        <border key="lblTitle.border" type="empty" />
+        <val key="lblTitle.dis#align" value="4" />
+        <val key="lblTitle.dis#bgColor" value="0" />
+        <border key="lblTitle.dis#border" type="empty" />
+        <val key="lblTitle.dis#fgColor" value="ffffff" />
+        <font key="lblTitle.dis#font" type="ttf" face="0" style="0" size="0" name="native:MainRegular" family="native:MainRegular" sizeSettings="3" actualSize="3.5" />
+        <val key="lblTitle.dis#padUnit" value="2,2,2,2" />
+        <val key="lblTitle.dis#padding" value="2.0,2.0,0.0,0.0" />
+        <val key="lblTitle.dis#transparency" value="0" />
+        <val key="lblTitle.fgColor" value="ffffff" />
+        <font key="lblTitle.font" type="ttf" face="0" style="0" size="0" name="native:MainRegular" family="native:MainRegular" sizeSettings="3" actualSize="3.5" />
+        <val key="lblTitle.padUnit" value="2,2,2,2" />
+        <val key="lblTitle.padding" value="2.0,2.0,0.0,0.0" />
+        <val key="lblTitle.press#align" value="4" />
+        <val key="lblTitle.press#bgColor" value="0" />
+        <border key="lblTitle.press#border" type="empty" />
+        <val key="lblTitle.press#fgColor" value="ffffff" />
+        <font key="lblTitle.press#font" type="ttf" face="0" style="0" size="0" name="native:MainRegular" family="native:MainRegular" sizeSettings="3" actualSize="3.5" />
+        <val key="lblTitle.press#padUnit" value="2,2,2,2" />
+        <val key="lblTitle.press#padding" value="2.0,2.0,0.0,0.0" />
+        <val key="lblTitle.press#transparency" value="0" />
+        <val key="lblTitle.sel#align" value="4" />
+        <val key="lblTitle.sel#bgColor" value="0" />
+        <border key="lblTitle.sel#border" type="empty" />
+        <val key="lblTitle.sel#fgColor" value="ffffff" />
+        <font key="lblTitle.sel#font" type="ttf" face="0" style="0" size="0" name="native:MainRegular" family="native:MainRegular" sizeSettings="3" actualSize="3.5" />
+        <val key="lblTitle.sel#padUnit" value="2,2,2,2" />
+        <val key="lblTitle.sel#padding" value="2.0,2.0,0.0,0.0" />
+        <val key="lblTitle.sel#transparency" value="0" />
+        <val key="lblTitle.transparency" value="0" />
+        <val key="lblUser.bgColor" value="0" />
+        <val key="lblUser.dis#bgColor" value="0" />
+        <val key="lblUser.dis#fgColor" value="ffffff" />
+        <font key="lblUser.dis#font" type="ttf" face="0" style="0" size="0" name="native:ItalicLight" family="native:ItalicLight" sizeSettings="1" actualSize="0.0" />
+        <val key="lblUser.dis#transparency" value="0" />
+        <val key="lblUser.fgColor" value="ffffff" />
+        <font key="lblUser.font" type="ttf" face="0" style="0" size="0" name="native:ItalicLight" family="native:ItalicLight" sizeSettings="1" actualSize="0.0" />
+        <val key="lblUser.press#bgColor" value="0" />
+        <val key="lblUser.press#fgColor" value="ffffff" />
+        <font key="lblUser.press#font" type="ttf" face="0" style="0" size="0" name="native:ItalicLight" family="native:ItalicLight" sizeSettings="1" actualSize="0.0" />
+        <val key="lblUser.press#transparency" value="0" />
+        <val key="lblUser.sel#bgColor" value="0" />
+        <val key="lblUser.sel#fgColor" value="ffffff" />
+        <font key="lblUser.sel#font" type="ttf" face="0" style="0" size="0" name="native:ItalicLight" family="native:ItalicLight" sizeSettings="1" actualSize="0.0" />
+        <val key="lblUser.sel#transparency" value="0" />
+        <val key="lblUser.transparency" value="0" />
+        <val key="menuImgBg.bgColor" value="ffffff" />
+        <val key="menuImgBg.dis#bgColor" value="ffffff" />
+        <val key="menuImgBg.dis#marUnit" value="0,0,2,0" />
+        <val key="menuImgBg.dis#margin" value="0.0,2.0,0.0,0.0" />
+        <val key="menuImgBg.dis#transparency" value="255" />
+        <val key="menuImgBg.marUnit" value="0,0,2,0" />
+        <val key="menuImgBg.margin" value="0.0,2.0,0.0,0.0" />
+        <val key="menuImgBg.press#bgColor" value="ffffff" />
+        <val key="menuImgBg.press#marUnit" value="0,0,2,0" />
+        <val key="menuImgBg.press#margin" value="0.0,2.0,0.0,0.0" />
+        <val key="menuImgBg.press#transparency" value="255" />
+        <val key="menuImgBg.sel#bgColor" value="ffffff" />
+        <val key="menuImgBg.sel#marUnit" value="0,0,2,0" />
+        <val key="menuImgBg.sel#margin" value="0.0,2.0,0.0,0.0" />
+        <val key="menuImgBg.sel#transparency" value="255" />
+        <val key="menuImgBg.transparency" value="255" />
+        <val key="menuImgRound.bgColor" value="ffff" />
+        <val key="menuImgRound.bgType" value="0" />
+        <border key="menuImgRound.border" type="round" roundBorderColor="65535" opacity="255" strokeColor="255" strokeOpacity="255" strokeThickness="0.35277778" strokeMM="true" shadowSpread="10" shadowOpacity="0" shadowX="0.5" shadowY="0.5" shadowBlur="10.0" shadowMM="false" rectangle="false" />
+        <val key="menuImgRound.dis#bgColor" value="ffff" />
+        <val key="menuImgRound.dis#bgType" value="0" />
+        <border key="menuImgRound.dis#border" type="round" roundBorderColor="65535" opacity="255" strokeColor="255" strokeOpacity="255" strokeThickness="0.35277778" strokeMM="true" shadowSpread="10" shadowOpacity="0" shadowX="0.5" shadowY="0.5" shadowBlur="10.0" shadowMM="false" rectangle="false" />
+        <val key="menuImgRound.dis#marUnit" value="2,2,2,2" />
+        <val key="menuImgRound.dis#margin" value="1.0,1.0,1.0,1.0" />
+        <val key="menuImgRound.dis#padUnit" value="2,2,2,2" />
+        <val key="menuImgRound.dis#padding" value="2.0,2.0,2.0,2.0" />
+        <val key="menuImgRound.dis#transparency" value="255" />
+        <val key="menuImgRound.marUnit" value="2,2,2,2" />
+        <val key="menuImgRound.margin" value="1.0,1.0,1.0,1.0" />
+        <val key="menuImgRound.padUnit" value="2,2,2,2" />
+        <val key="menuImgRound.padding" value="2.0,2.0,2.0,2.0" />
+        <val key="menuImgRound.press#bgColor" value="ffff" />
+        <val key="menuImgRound.press#bgType" value="0" />
+        <border key="menuImgRound.press#border" type="round" roundBorderColor="65535" opacity="255" strokeColor="255" strokeOpacity="255" strokeThickness="0.35277778" strokeMM="true" shadowSpread="10" shadowOpacity="0" shadowX="0.5" shadowY="0.5" shadowBlur="10.0" shadowMM="false" rectangle="false" />
+        <val key="menuImgRound.press#marUnit" value="2,2,2,2" />
+        <val key="menuImgRound.press#margin" value="1.0,1.0,1.0,1.0" />
+        <val key="menuImgRound.press#padUnit" value="2,2,2,2" />
+        <val key="menuImgRound.press#padding" value="2.0,2.0,2.0,2.0" />
+        <val key="menuImgRound.press#transparency" value="255" />
+        <val key="menuImgRound.sel#bgColor" value="ffff" />
+        <val key="menuImgRound.sel#bgType" value="0" />
+        <border key="menuImgRound.sel#border" type="round" roundBorderColor="65535" opacity="255" strokeColor="255" strokeOpacity="255" strokeThickness="0.35277778" strokeMM="true" shadowSpread="10" shadowOpacity="0" shadowX="0.5" shadowY="0.5" shadowBlur="10.0" shadowMM="false" rectangle="false" />
+        <val key="menuImgRound.sel#marUnit" value="2,2,2,2" />
+        <val key="menuImgRound.sel#margin" value="1.0,1.0,1.0,1.0" />
+        <val key="menuImgRound.sel#padUnit" value="2,2,2,2" />
+        <val key="menuImgRound.sel#padding" value="2.0,2.0,2.0,2.0" />
+        <val key="menuImgRound.sel#transparency" value="255" />
+        <val key="menuImgRound.transparency" value="255" />
+        <val key="menuLbl.align" value="4" />
+        <val key="menuLbl.bgColor" value="0" />
+        <val key="menuLbl.dis#align" value="4" />
+        <val key="menuLbl.dis#bgColor" value="0" />
+        <val key="menuLbl.dis#fgColor" value="3399ff" />
+        <font key="menuLbl.dis#font" type="ttf" face="0" style="0" size="0" name="native:MainLight" family="native:MainLight" sizeSettings="3" actualSize="2.4" />
+        <val key="menuLbl.dis#marUnit" value="2,0,0,0" />
+        <val key="menuLbl.dis#margin" value="1.0,0.0,0.0,0.0" />
+        <val key="menuLbl.dis#padUnit" value="0,0,0,0" />
+        <val key="menuLbl.dis#padding" value="0.0,0.0,0.0,0.0" />
+        <val key="menuLbl.dis#transparency" value="0" />
+        <val key="menuLbl.fgColor" value="3399ff" />
+        <font key="menuLbl.font" type="ttf" face="0" style="0" size="0" name="native:MainLight" family="native:MainLight" sizeSettings="3" actualSize="2.4" />
+        <val key="menuLbl.marUnit" value="2,0,0,0" />
+        <val key="menuLbl.margin" value="1.0,0.0,0.0,0.0" />
+        <val key="menuLbl.padUnit" value="0,0,0,0" />
+        <val key="menuLbl.padding" value="0.0,0.0,0.0,0.0" />
+        <val key="menuLbl.press#align" value="4" />
+        <val key="menuLbl.press#bgColor" value="0" />
+        <val key="menuLbl.press#fgColor" value="3399ff" />
+        <font key="menuLbl.press#font" type="ttf" face="0" style="0" size="0" name="native:MainLight" family="native:MainLight" sizeSettings="3" actualSize="2.4" />
+        <val key="menuLbl.press#marUnit" value="2,0,0,0" />
+        <val key="menuLbl.press#margin" value="1.0,0.0,0.0,0.0" />
+        <val key="menuLbl.press#padUnit" value="0,0,0,0" />
+        <val key="menuLbl.press#padding" value="0.0,0.0,0.0,0.0" />
+        <val key="menuLbl.press#transparency" value="0" />
+        <val key="menuLbl.sel#align" value="4" />
+        <val key="menuLbl.sel#bgColor" value="0" />
+        <val key="menuLbl.sel#fgColor" value="3399ff" />
+        <font key="menuLbl.sel#font" type="ttf" face="0" style="0" size="0" name="native:MainLight" family="native:MainLight" sizeSettings="3" actualSize="2.4" />
+        <val key="menuLbl.sel#marUnit" value="2,0,0,0" />
+        <val key="menuLbl.sel#margin" value="1.0,0.0,0.0,0.0" />
+        <val key="menuLbl.sel#padUnit" value="0,0,0,0" />
+        <val key="menuLbl.sel#padding" value="0.0,0.0,0.0,0.0" />
+        <val key="menuLbl.sel#transparency" value="0" />
+        <val key="menuLbl.transparency" value="0" />
+        <val key="menuLblBtn.align" value="4" />
+        <val key="menuLblBtn.bgColor" value="0" />
+        <val key="menuLblBtn.dis#align" value="4" />
+        <val key="menuLblBtn.dis#bgColor" value="0" />
+        <val key="menuLblBtn.dis#fgColor" value="3399ff" />
+        <font key="menuLblBtn.dis#font" type="ttf" face="0" style="0" size="0" name="native:MainLight" family="native:MainLight" sizeSettings="3" actualSize="2.4" />
+        <val key="menuLblBtn.dis#marUnit" value="0,0,0,0" />
+        <val key="menuLblBtn.dis#margin" value="0.0,0.0,0.0,0.0" />
+        <val key="menuLblBtn.dis#padUnit" value="0,0,0,0" />
+        <val key="menuLblBtn.dis#padding" value="0.0,0.0,0.0,0.0" />
+        <val key="menuLblBtn.dis#transparency" value="0" />
+        <val key="menuLblBtn.fgColor" value="3399ff" />
+        <font key="menuLblBtn.font" type="ttf" face="0" style="0" size="0" name="native:MainLight" family="native:MainLight" sizeSettings="3" actualSize="2.4" />
+        <val key="menuLblBtn.marUnit" value="0,0,0,0" />
+        <val key="menuLblBtn.margin" value="0.0,0.0,0.0,0.0" />
+        <val key="menuLblBtn.padUnit" value="0,0,0,0" />
+        <val key="menuLblBtn.padding" value="0.0,0.0,0.0,0.0" />
+        <val key="menuLblBtn.press#align" value="4" />
+        <val key="menuLblBtn.press#bgColor" value="0" />
+        <val key="menuLblBtn.press#fgColor" value="3399ff" />
+        <font key="menuLblBtn.press#font" type="ttf" face="0" style="0" size="0" name="native:MainLight" family="native:MainLight" sizeSettings="3" actualSize="2.4" />
+        <val key="menuLblBtn.press#marUnit" value="0,0,0,0" />
+        <val key="menuLblBtn.press#margin" value="0.0,0.0,0.0,0.0" />
+        <val key="menuLblBtn.press#padUnit" value="0,0,0,0" />
+        <val key="menuLblBtn.press#padding" value="0.0,0.0,0.0,0.0" />
+        <val key="menuLblBtn.press#transparency" value="0" />
+        <val key="menuLblBtn.sel#align" value="4" />
+        <val key="menuLblBtn.sel#bgColor" value="0" />
+        <val key="menuLblBtn.sel#fgColor" value="3399ff" />
+        <font key="menuLblBtn.sel#font" type="ttf" face="0" style="0" size="0" name="native:MainLight" family="native:MainLight" sizeSettings="3" actualSize="2.4" />
+        <val key="menuLblBtn.sel#marUnit" value="0,0,0,0" />
+        <val key="menuLblBtn.sel#margin" value="0.0,0.0,0.0,0.0" />
+        <val key="menuLblBtn.sel#padUnit" value="0,0,0,0" />
+        <val key="menuLblBtn.sel#padding" value="0.0,0.0,0.0,0.0" />
+        <val key="menuLblBtn.sel#transparency" value="0" />
+        <val key="menuLblBtn.transparency" value="0" />
+        <val key="menuParRound.bgColor" value="ffff" />
+        <val key="menuParRound.bgType" value="0" />
+        <border key="menuParRound.border" type="round" roundBorderColor="65535" opacity="255" strokeColor="0" strokeOpacity="0" strokeThickness="1.0" strokeMM="false" shadowSpread="10" shadowOpacity="0" shadowX="0.5" shadowY="0.5" shadowBlur="10.0" shadowMM="false" rectangle="false" />
+        <val key="menuParRound.dis#bgColor" value="ffff" />
+        <val key="menuParRound.dis#bgType" value="0" />
+        <border key="menuParRound.dis#border" type="round" roundBorderColor="65535" opacity="255" strokeColor="0" strokeOpacity="0" strokeThickness="1.0" strokeMM="false" shadowSpread="10" shadowOpacity="0" shadowX="0.5" shadowY="0.5" shadowBlur="10.0" shadowMM="false" rectangle="false" />
+        <val key="menuParRound.dis#marUnit" value="2,2,2,2" />
+        <val key="menuParRound.dis#margin" value="0.0,0.0,0.0,0.0" />
+        <val key="menuParRound.dis#padUnit" value="2,2,2,2" />
+        <val key="menuParRound.dis#padding" value="0.0,0.0,0.0,0.0" />
+        <val key="menuParRound.dis#transparency" value="255" />
+        <val key="menuParRound.marUnit" value="2,2,2,2" />
+        <val key="menuParRound.margin" value="0.0,0.0,0.0,0.0" />
+        <val key="menuParRound.padUnit" value="2,2,2,2" />
+        <val key="menuParRound.padding" value="0.0,0.0,0.0,0.0" />
+        <val key="menuParRound.press#bgColor" value="ffff" />
+        <val key="menuParRound.press#bgType" value="0" />
+        <border key="menuParRound.press#border" type="round" roundBorderColor="65535" opacity="255" strokeColor="0" strokeOpacity="0" strokeThickness="1.0" strokeMM="false" shadowSpread="10" shadowOpacity="0" shadowX="0.5" shadowY="0.5" shadowBlur="10.0" shadowMM="false" rectangle="false" />
+        <val key="menuParRound.press#marUnit" value="2,2,2,2" />
+        <val key="menuParRound.press#margin" value="0.0,0.0,0.0,0.0" />
+        <val key="menuParRound.press#padUnit" value="2,2,2,2" />
+        <val key="menuParRound.press#padding" value="0.0,0.0,0.0,0.0" />
+        <val key="menuParRound.press#transparency" value="255" />
+        <val key="menuParRound.sel#bgColor" value="ffff" />
+        <val key="menuParRound.sel#bgType" value="0" />
+        <border key="menuParRound.sel#border" type="round" roundBorderColor="65535" opacity="255" strokeColor="0" strokeOpacity="0" strokeThickness="1.0" strokeMM="false" shadowSpread="10" shadowOpacity="0" shadowX="0.5" shadowY="0.5" shadowBlur="10.0" shadowMM="false" rectangle="false" />
+        <val key="menuParRound.sel#marUnit" value="2,2,2,2" />
+        <val key="menuParRound.sel#margin" value="0.0,0.0,0.0,0.0" />
+        <val key="menuParRound.sel#padUnit" value="2,2,2,2" />
+        <val key="menuParRound.sel#padding" value="0.0,0.0,0.0,0.0" />
+        <val key="menuParRound.sel#transparency" value="255" />
+        <val key="menuParRound.transparency" value="255" />
+        <val key="menuRound.bgColor" value="ff" />
+        <val key="menuRound.bgType" value="0" />
+        <border key="menuRound.border" type="round" roundBorderColor="255" opacity="255" strokeColor="0" strokeOpacity="0" strokeThickness="1.0" strokeMM="false" shadowSpread="10" shadowOpacity="0" shadowX="0.5" shadowY="0.5" shadowBlur="10.0" shadowMM="false" rectangle="false" />
+        <val key="menuRound.dis#bgColor" value="ff" />
+        <val key="menuRound.dis#bgType" value="0" />
+        <border key="menuRound.dis#border" type="round" roundBorderColor="255" opacity="255" strokeColor="0" strokeOpacity="0" strokeThickness="1.0" strokeMM="false" shadowSpread="10" shadowOpacity="0" shadowX="0.5" shadowY="0.5" shadowBlur="10.0" shadowMM="false" rectangle="false" />
+        <val key="menuRound.dis#marUnit" value="2,2,2,2" />
+        <val key="menuRound.dis#margin" value="0.0,0.0,0.0,0.0" />
+        <val key="menuRound.dis#padUnit" value="2,2,2,2" />
+        <val key="menuRound.dis#padding" value="1.0,1.0,1.0,1.0" />
+        <val key="menuRound.dis#transparency" value="255" />
+        <val key="menuRound.marUnit" value="2,2,2,2" />
+        <val key="menuRound.margin" value="0.0,0.0,0.0,0.0" />
+        <val key="menuRound.padUnit" value="2,2,2,2" />
+        <val key="menuRound.padding" value="1.0,1.0,1.0,1.0" />
+        <val key="menuRound.press#bgColor" value="ff" />
+        <val key="menuRound.press#bgType" value="0" />
+        <border key="menuRound.press#border" type="round" roundBorderColor="255" opacity="255" strokeColor="0" strokeOpacity="0" strokeThickness="1.0" strokeMM="false" shadowSpread="10" shadowOpacity="0" shadowX="0.5" shadowY="0.5" shadowBlur="10.0" shadowMM="false" rectangle="false" />
+        <val key="menuRound.press#marUnit" value="2,2,2,2" />
+        <val key="menuRound.press#margin" value="0.0,0.0,0.0,0.0" />
+        <val key="menuRound.press#padUnit" value="2,2,2,2" />
+        <val key="menuRound.press#padding" value="1.0,1.0,1.0,1.0" />
+        <val key="menuRound.press#transparency" value="255" />
+        <val key="menuRound.sel#bgColor" value="ff" />
+        <val key="menuRound.sel#bgType" value="0" />
+        <border key="menuRound.sel#border" type="round" roundBorderColor="255" opacity="255" strokeColor="0" strokeOpacity="0" strokeThickness="1.0" strokeMM="false" shadowSpread="10" shadowOpacity="0" shadowX="0.5" shadowY="0.5" shadowBlur="10.0" shadowMM="false" rectangle="false" />
+        <val key="menuRound.sel#marUnit" value="2,2,2,2" />
+        <val key="menuRound.sel#margin" value="0.0,0.0,0.0,0.0" />
+        <val key="menuRound.sel#padUnit" value="2,2,2,2" />
+        <val key="menuRound.sel#padding" value="1.0,1.0,1.0,1.0" />
+        <val key="menuRound.sel#transparency" value="255" />
+        <val key="menuRound.transparency" value="255" />
+        <val key="navCnt.bgColor" value="0" />
+        <val key="navCnt.dis#bgColor" value="0" />
+        <val key="navCnt.dis#padUnit" value="2,0,2,0" />
+        <val key="navCnt.dis#padding" value="1.0,1.0,0.0,0.0" />
+        <val key="navCnt.dis#transparency" value="0" />
+        <val key="navCnt.padUnit" value="2,0,2,0" />
+        <val key="navCnt.padding" value="1.0,1.0,0.0,0.0" />
+        <val key="navCnt.press#bgColor" value="0" />
+        <val key="navCnt.press#padUnit" value="2,0,2,0" />
+        <val key="navCnt.press#padding" value="1.0,1.0,0.0,0.0" />
+        <val key="navCnt.press#transparency" value="0" />
+        <val key="navCnt.sel#bgColor" value="0" />
+        <val key="navCnt.sel#padUnit" value="2,0,2,0" />
+        <val key="navCnt.sel#padding" value="1.0,1.0,0.0,0.0" />
+        <val key="navCnt.sel#transparency" value="0" />
+        <val key="navCnt.transparency" value="0" />
+        <val key="navIcon.bgColor" value="0" />
+        <val key="navIcon.dis#bgColor" value="0" />
+        <val key="navIcon.dis#marUnit" value="0,2,0,2" />
+        <val key="navIcon.dis#margin" value="0.0,0.0,1.0,2.0" />
+        <val key="navIcon.dis#transparency" value="0" />
+        <val key="navIcon.marUnit" value="0,2,0,2" />
+        <val key="navIcon.margin" value="0.0,0.0,1.0,2.0" />
+        <val key="navIcon.press#bgColor" value="0" />
+        <val key="navIcon.press#marUnit" value="0,2,0,2" />
+        <val key="navIcon.press#margin" value="0.0,0.0,1.0,2.0" />
+        <val key="navIcon.press#transparency" value="0" />
+        <val key="navIcon.sel#bgColor" value="0" />
+        <val key="navIcon.sel#marUnit" value="0,2,0,2" />
+        <val key="navIcon.sel#margin" value="0.0,0.0,1.0,2.0" />
+        <val key="navIcon.sel#transparency" value="0" />
+        <val key="navIcon.transparency" value="0" />
+        <val key="navLbl.align" value="4" />
+        <val key="navLbl.bgColor" value="0" />
+        <val key="navLbl.dis#align" value="4" />
+        <val key="navLbl.dis#bgColor" value="0" />
+        <val key="navLbl.dis#fgColor" value="ffffff" />
+        <font key="navLbl.dis#font" type="ttf" face="0" style="0" size="0" name="native:MainLight" family="native:MainLight" sizeSettings="3" actualSize="3.5" />
+        <val key="navLbl.dis#transparency" value="0" />
+        <val key="navLbl.fgColor" value="ffffff" />
+        <font key="navLbl.font" type="ttf" face="0" style="0" size="0" name="native:MainLight" family="native:MainLight" sizeSettings="3" actualSize="3.5" />
+        <val key="navLbl.press#align" value="4" />
+        <val key="navLbl.press#bgColor" value="0" />
+        <val key="navLbl.press#fgColor" value="ffffff" />
+        <font key="navLbl.press#font" type="ttf" face="0" style="0" size="0" name="native:MainLight" family="native:MainLight" sizeSettings="3" actualSize="3.5" />
+        <val key="navLbl.press#transparency" value="0" />
+        <val key="navLbl.sel#align" value="4" />
+        <val key="navLbl.sel#bgColor" value="0" />
+        <val key="navLbl.sel#fgColor" value="ffffff" />
+        <font key="navLbl.sel#font" type="ttf" face="0" style="0" size="0" name="native:MainLight" family="native:MainLight" sizeSettings="3" actualSize="3.5" />
+        <val key="navLbl.sel#transparency" value="0" />
+        <val key="navLbl.transparency" value="0" />
+        <val key="press#bgColor" value="0" />
+        <val key="press#transparency" value="0" />
+        <val key="sel#bgColor" value="0" />
+        <val key="sel#transparency" value="0" />
+        <val key="tabs.bgColor" value="15e7ff" />
+        <border key="tabs.border" type="empty" />
+        <val key="tabs.dis#bgColor" value="15e7ff" />
+        <border key="tabs.dis#border" type="empty" />
+        <val key="tabs.dis#marUnit" value="2,2,2,2" />
+        <val key="tabs.dis#margin" value="0.0,0.0,0.0,0.0" />
+        <val key="tabs.dis#padUnit" value="2,2,2,2" />
+        <val key="tabs.dis#padding" value="0.0,0.0,0.0,0.0" />
+        <val key="tabs.dis#transparency" value="255" />
+        <val key="tabs.fgColor" value="000000" />
+        <val key="tabs.marUnit" value="2,2,2,2" />
+        <val key="tabs.margin" value="0.0,0.0,0.0,0.0" />
+        <val key="tabs.padUnit" value="2,2,2,2" />
+        <val key="tabs.padding" value="0.0,0.0,0.0,0.0" />
+        <val key="tabs.press#bgColor" value="15e7ff" />
+        <border key="tabs.press#border" type="empty" />
+        <val key="tabs.press#marUnit" value="2,2,2,2" />
+        <val key="tabs.press#margin" value="0.0,0.0,0.0,0.0" />
+        <val key="tabs.press#padUnit" value="2,2,2,2" />
+        <val key="tabs.press#padding" value="0.0,0.0,0.0,0.0" />
+        <val key="tabs.press#transparency" value="255" />
+        <val key="tabs.sel#bgColor" value="15e7ff" />
+        <border key="tabs.sel#border" type="empty" />
+        <val key="tabs.sel#marUnit" value="2,2,2,2" />
+        <val key="tabs.sel#margin" value="0.0,0.0,0.0,0.0" />
+        <val key="tabs.sel#padUnit" value="2,2,2,2" />
+        <val key="tabs.sel#padding" value="0.0,0.0,0.0,0.0" />
+        <val key="tabs.sel#transparency" value="255" />
+        <val key="tabs.transparency" value="255" />
+        <val key="tbar.bgColor" value="15e7ff" />
+        <border key="tbar.border" type="empty" />
+        <val key="tbar.dis#bgColor" value="15e7ff" />
+        <border key="tbar.dis#border" type="empty" />
+        <val key="tbar.dis#marUnit" value="2,2,2,2" />
+        <val key="tbar.dis#margin" value="0.0,0.0,0.0,0.0" />
+        <val key="tbar.dis#padUnit" value="2,2,2,2" />
+        <val key="tbar.dis#padding" value="0.0,0.0,0.0,0.0" />
+        <val key="tbar.dis#transparency" value="255" />
+        <val key="tbar.marUnit" value="2,2,2,2" />
+        <val key="tbar.margin" value="0.0,0.0,0.0,0.0" />
+        <val key="tbar.padUnit" value="2,2,2,2" />
+        <val key="tbar.padding" value="0.0,0.0,0.0,0.0" />
+        <val key="tbar.press#bgColor" value="15e7ff" />
+        <border key="tbar.press#border" type="empty" />
+        <val key="tbar.press#marUnit" value="2,2,2,2" />
+        <val key="tbar.press#margin" value="0.0,0.0,0.0,0.0" />
+        <val key="tbar.press#padUnit" value="2,2,2,2" />
+        <val key="tbar.press#padding" value="0.0,0.0,0.0,0.0" />
+        <val key="tbar.press#transparency" value="255" />
+        <val key="tbar.sel#bgColor" value="15e7ff" />
+        <border key="tbar.sel#border" type="empty" />
+        <val key="tbar.sel#marUnit" value="2,2,2,2" />
+        <val key="tbar.sel#margin" value="0.0,0.0,0.0,0.0" />
+        <val key="tbar.sel#padUnit" value="2,2,2,2" />
+        <val key="tbar.sel#padding" value="0.0,0.0,0.0,0.0" />
+        <val key="tbar.sel#transparency" value="255" />
+        <val key="tbar.transparency" value="255" />
+        <val key="tf.bgColor" value="0" />
+        <val key="tf.dis#bgColor" value="0" />
+        <val key="tf.dis#fgColor" value="ff" />
+        <font key="tf.dis#font" type="ttf" face="0" style="0" size="0" name="native:MainLight" family="native:MainLight" sizeSettings="3" actualSize="3.0" />
+        <val key="tf.dis#marUnit" value="2,2,2,2" />
+        <val key="tf.dis#margin" value="0.0,0.0,1.0,1.0" />
+        <val key="tf.dis#transparency" value="0" />
+        <val key="tf.fgColor" value="ff" />
+        <font key="tf.font" type="ttf" face="0" style="0" size="0" name="native:MainLight" family="native:MainLight" sizeSettings="3" actualSize="3.0" />
+        <val key="tf.marUnit" value="2,2,2,2" />
+        <val key="tf.margin" value="0.0,0.0,1.0,1.0" />
+        <val key="tf.press#bgColor" value="0" />
+        <val key="tf.press#fgColor" value="ff" />
+        <font key="tf.press#font" type="ttf" face="0" style="0" size="0" name="native:MainLight" family="native:MainLight" sizeSettings="3" actualSize="3.0" />
+        <val key="tf.press#marUnit" value="2,2,2,2" />
+        <val key="tf.press#margin" value="0.0,0.0,1.0,1.0" />
+        <val key="tf.press#transparency" value="0" />
+        <val key="tf.sel#bgColor" value="0" />
+        <val key="tf.sel#fgColor" value="ff" />
+        <font key="tf.sel#font" type="ttf" face="0" style="0" size="0" name="native:MainLight" family="native:MainLight" sizeSettings="3" actualSize="3.0" />
+        <val key="tf.sel#marUnit" value="2,2,2,2" />
+        <val key="tf.sel#margin" value="0.0,0.0,1.0,1.0" />
+        <val key="tf.sel#transparency" value="0" />
+        <val key="tf.transparency" value="0" />
+        <val key="tfLay.bgColor" value="fbeb" />
+        <border key="tfLay.border" type="roundRect" strokeColor="16777215" strokeOpacity="255" strokeThickness="0.17638889" strokeMM="true" shadowSpread="1.0" shadowOpacity="0" shadowX="0.5" shadowY="0.5" shadowBlur="10.0" topOnlyMode="false" bottomOnlyMode="false" cornerRadius="1.0" bezierCorners="false" />
+        <val key="tfLay.dis#bgColor" value="fbeb" />
+        <border key="tfLay.dis#border" type="roundRect" strokeColor="16777215" strokeOpacity="255" strokeThickness="0.17638889" strokeMM="true" shadowSpread="1.0" shadowOpacity="0" shadowX="0.5" shadowY="0.5" shadowBlur="10.0" topOnlyMode="false" bottomOnlyMode="false" cornerRadius="1.0" bezierCorners="false" />
+        <val key="tfLay.dis#marUnit" value="2,2,2,2" />
+        <val key="tfLay.dis#margin" value="2.0,2.0,2.0,2.0" />
+        <val key="tfLay.dis#padUnit" value="2,0,2,0" />
+        <val key="tfLay.dis#padding" value="1.0,1.0,0.0,0.0" />
+        <val key="tfLay.dis#transparency" value="255" />
+        <val key="tfLay.marUnit" value="2,2,2,2" />
+        <val key="tfLay.margin" value="2.0,2.0,2.0,2.0" />
+        <val key="tfLay.padUnit" value="2,0,2,0" />
+        <val key="tfLay.padding" value="1.0,1.0,0.0,0.0" />
+        <val key="tfLay.press#bgColor" value="fbeb" />
+        <border key="tfLay.press#border" type="roundRect" strokeColor="16777215" strokeOpacity="255" strokeThickness="0.17638889" strokeMM="true" shadowSpread="1.0" shadowOpacity="0" shadowX="0.5" shadowY="0.5" shadowBlur="10.0" topOnlyMode="false" bottomOnlyMode="false" cornerRadius="1.0" bezierCorners="false" />
+        <val key="tfLay.press#marUnit" value="2,2,2,2" />
+        <val key="tfLay.press#margin" value="2.0,2.0,2.0,2.0" />
+        <val key="tfLay.press#padUnit" value="2,0,2,0" />
+        <val key="tfLay.press#padding" value="1.0,1.0,0.0,0.0" />
+        <val key="tfLay.press#transparency" value="255" />
+        <val key="tfLay.sel#bgColor" value="fbeb" />
+        <border key="tfLay.sel#border" type="roundRect" strokeColor="16777215" strokeOpacity="255" strokeThickness="0.17638889" strokeMM="true" shadowSpread="1.0" shadowOpacity="0" shadowX="0.5" shadowY="0.5" shadowBlur="10.0" topOnlyMode="false" bottomOnlyMode="false" cornerRadius="1.0" bezierCorners="false" />
+        <val key="tfLay.sel#marUnit" value="2,2,2,2" />
+        <val key="tfLay.sel#margin" value="2.0,2.0,2.0,2.0" />
+        <val key="tfLay.sel#padUnit" value="2,0,2,0" />
+        <val key="tfLay.sel#padding" value="1.0,1.0,0.0,0.0" />
+        <val key="tfLay.sel#transparency" value="255" />
+        <val key="tfLay.transparency" value="255" />
+        <val key="topBar.bgColor" value="3399ff" />
+        <border key="topBar.border" type="empty" />
+        <val key="topBar.dis#bgColor" value="3399ff" />
+        <border key="topBar.dis#border" type="empty" />
+        <font key="topBar.dis#font" type="ttf" face="0" style="0" size="0" name="native:MainLight" family="native:MainLight" sizeSettings="3" actualSize="3.5" />
+        <val key="topBar.dis#marUnit" value="0,0,2,0" />
+        <val key="topBar.dis#margin" value="0.0,1.0,0.0,0.0" />
+        <val key="topBar.dis#padUnit" value="2,2,2,2" />
+        <val key="topBar.dis#padding" value="3.0,3.0,3.0,3.0" />
+        <val key="topBar.dis#transparency" value="255" />
+        <val key="topBar.fgColor" value="000000" />
+        <font key="topBar.font" type="ttf" face="0" style="0" size="0" name="native:MainLight" family="native:MainLight" sizeSettings="3" actualSize="3.5" />
+        <val key="topBar.marUnit" value="0,0,2,0" />
+        <val key="topBar.margin" value="0.0,1.0,0.0,0.0" />
+        <val key="topBar.padUnit" value="2,2,2,2" />
+        <val key="topBar.padding" value="3.0,3.0,3.0,3.0" />
+        <val key="topBar.press#bgColor" value="3399ff" />
+        <border key="topBar.press#border" type="empty" />
+        <font key="topBar.press#font" type="ttf" face="0" style="0" size="0" name="native:MainLight" family="native:MainLight" sizeSettings="3" actualSize="3.5" />
+        <val key="topBar.press#marUnit" value="0,0,2,0" />
+        <val key="topBar.press#margin" value="0.0,1.0,0.0,0.0" />
+        <val key="topBar.press#padUnit" value="2,2,2,2" />
+        <val key="topBar.press#padding" value="3.0,3.0,3.0,3.0" />
+        <val key="topBar.press#transparency" value="255" />
+        <val key="topBar.sel#bgColor" value="3399ff" />
+        <border key="topBar.sel#border" type="empty" />
+        <font key="topBar.sel#font" type="ttf" face="0" style="0" size="0" name="native:MainLight" family="native:MainLight" sizeSettings="3" actualSize="3.5" />
+        <val key="topBar.sel#marUnit" value="0,0,2,0" />
+        <val key="topBar.sel#margin" value="0.0,1.0,0.0,0.0" />
+        <val key="topBar.sel#padUnit" value="2,2,2,2" />
+        <val key="topBar.sel#padding" value="3.0,3.0,3.0,3.0" />
+        <val key="topBar.sel#transparency" value="255" />
+        <val key="topBar.transparency" value="255" />
+        <val key="transparency" value="0" />
+    </theme>
+</resource>
